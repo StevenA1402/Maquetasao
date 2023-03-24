@@ -1,0 +1,49 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    height: 100%;
+}
+body{
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.849);
+    color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.contenedor{
+    width: 80%;
+    height: 100%;
+    border: 1px solid white;
+  
+}
+.menu{
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menu__first{
+    width: 50%;
+}
+.menu__second{
+    width: 50%;
+
+}
+.menu__second ul{
+    display: flex;
+    justify-content: space-between;
+    
+}
+li{
+    list-style: none;
+}
+hr{
+    height: 50%;
+    width: 50%;
+    border: 1px  solid white;
+}
