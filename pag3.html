@@ -1,12 +1,262 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <h1>Jorge</h1>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Página 3</title>
+  </head>
+  <body class="bg-[#272727] px-[8rem] py-[3rem] text-white">
+    <!-- Cabaecera -->
+    <header
+      class="flex flex-row text-white justify-between border-b-[0.1rem] border-b-[#4D4D4D]"
+    >
+      <p class="font-bold text-[24px]">Naufaldi</p>
+      <!-- Menu -->
+      <nav class="pb-[2rem] text-base">
+        <item class="px-[2rem]">What I do</item>
+        <item class="px-[1rem]">Mentorship</item>
+        <item class="px-[1rem]">Portafolio</item>
+        <item class="px-[1rem]">Snippet</item>
+        <item class="px-[1rem]">Blog</item>
+      </nav>
+    </header>
+
+    <main class="pt-[3rem]">
+      <p class="text-5xl font-bold">Code Snippet</p>
+      <p class="pt-[2rem] text-lg mb-[0.5rem] font-bold">Search code snippet</p>
+      <div class="flex flex-row bg-[#3F4152] p-[0.8rem] rounded-xl mt-[1rem]]">
+        <!-- Boton de busqueda -->
+        <input
+          type="text"
+          placeholder="Type your favorite snippet here, hehehe ...."
+          class="bg-[#3F4152] w-full text-[#9C9C9C] text-lg"
+        />
+        <button><img src="./assetsJorge/lupa.svg" alt="Buscar" /></button>
+      </div>
+      <!-- Contendor de cartas -->
+      <section class="mt-[2rem] pb-[0.8rem] bg-[#272727] border-b-[0.1rem] border-b-[#4D4D4D]">
+        <!-- fila 1 de cartas -->
+        <div class="flex flex-row justify-between mb-[1rem] ">
+          <!-- Carta 1 -->
+          <div
+            class="bg-[#3F4152] p-[1rem] mr-[1rem] rounded-lg w-[50%] flex flex-col justify-between px-[2rem]"
+          >
+            <p class="text-3xl font-bold py-[0.8rem]">Nextjs Starter</p>
+            <p class="text-lg pb-auto">A dead simple for nextjs project.</p>
+            <!-- contenedor imagenes -->
+            <div class="flex flex-row justify-between mt-[3rem]">
+              <div class="flex flex-row gap-[1rem]">
+                <img
+                  src="./assetsJorge/img1card1.svg"
+                  alt=""
+                  class="bg-[white] rounded"
+                />
+                <img
+                  src="./assetsJorge/img2card1.svg"
+                  alt=""
+                  class="bg-[white] rounded"
+                />
+              </div>
+              <div class="flex flex-row gap-[0.5rem]">
+                <figure class="flex flex-row justify-center items-center">
+                  <img src="./assetsJorge/estrella.svg" alt=""/>
+                </figure>
+                <p class="text-lg" >8 Stars</p>
+              </div>
+            </div>
+          </div>
+          <!-- Carta 2 -->
+          <div class="bg-[#3F4152] p-[1rem] ml-[1rem] rounded-lg w-[50%] flex flex-col justify-between px-[2rem]">
+            <p class="text-3xl font-bold py-[0.8rem]">Frontend Starter Kit</p>
+            <p class="text-lg pb-auto">
+              A dead simple for html 5 boilerplate project. Included setup for
+              minify css, html minify, SEO setting.
+            </p>
+            <!-- contenedor imagenes -->
+            <div class="flex flex-row justify-between mt-[3rem]">
+              <div class="flex flex-row gap-[1rem]">
+                <img
+                  src="./assetsJorge/img1card1.svg"
+                  alt=""
+                  class="bg-[white] rounded"
+                />
+                <img
+                  src="./assetsJorge/img2card2.svg"
+                  alt=""
+                  class="bg-[white] rounded"
+                />
+                <img
+                  src="./assetsJorge/img3card2.svg"
+                  alt=""
+                  class="bg-[white] rounded"
+                />
+              </div>
+              <div class="flex flex-row gap-[0.5rem]">
+                <figure class="flex flex-row justify-center items-center">
+                  <img src="./assetsJorge/estrella.svg" alt="" />
+                </figure>
+                <p class="text-lg">12 Stars</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- fila 2 de cartas -->
+        <div class="flex flex-row justify-between mb-[1rem]">
+          <!-- Carta 3 -->
+          <div
+            class="bg-[#3F4152] p-[1rem] mr-[1rem] rounded-lg w-[50%] flex flex-col justify-between px-[2rem]"
+          >
+            <p class="text-3xl font-bold py-[0.8rem]">Nextjs Starter 2.0</p>
+            <p class="text-lg pb-auto">
+              A dead simple for nextjs project with firebase setup.
+            </p>
+            <!-- contenedor imagenes -->
+            <div class="flex flex-row justify-between mt-[3rem]">
+              <div class="flex flex-row gap-[1rem]">
+                <img
+                  src="./assetsJorge/img1card1.svg"
+                  alt=""
+                  class="bg-[white] rounded"
+                />
+                <img
+                  src="./assetsJorge/img2card1.svg"
+                  alt=""
+                  class="bg-[white] rounded"
+                />
+              </div>
+              <div class="flex flex-row gap-[0.5rem]">
+                <figure class="flex flex-row justify-center items-center">
+                  <img src="./assetsJorge/estrella.svg" alt="" />
+                </figure>
+                <p class="text-lg">89 Stars</p>
+              </div>
+            </div>
+          </div>
+          <!-- Carta 4 -->
+          <div class="bg-[#3F4152] p-[1rem] ml-[1rem] rounded-lg w-[50%] justify-between px-[2rem]">
+            <p class="text-3xl font-bold py-[0.8rem]">Mobile Web Starter Kit</p>
+            <p class="text-lg pb-auto">
+              A dead simple for html 5 boilerplate project. Included setup for
+              minify css, html minify, SEO setting.
+            </p>
+            <!-- contenedor imagenes -->
+            <div class="flex flex-row justify-between mt-[3rem]">
+              <div class="flex flex-row gap-[1rem]">
+                <img
+                  src="./assetsJorge/img1card1.svg"
+                  alt=""
+                  class="bg-[white] rounded"
+                />
+                <img
+                  src="./assetsJorge/img2card2.svg"
+                  alt=""
+                  class="bg-[white] rounded"
+                />
+                <img
+                  src="./assetsJorge/img3card2.svg"
+                  alt=""
+                  class="bg-[white] rounded"
+                />
+              </div>
+              <div class="flex flex-row gap-[0.5rem]">
+                <figure class="flex flex-row justify-center items-center">
+                  <img src="./assetsJorge/estrella.svg" alt="" />
+                </figure>
+                <p class="text-lg">22 Stars</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+         <!-- fila 3 de cartas -->
+         <div class="flex flex-row justify-between mb-[1rem]">
+          <!-- Carta 5 -->
+          <div
+            class="bg-[#3F4152] p-[1rem] mr-[1rem] rounded-lg w-[50%] flex flex-col justify-between px-[2rem]"
+          >
+            <p class="text-3xl font-bold py-[0.8rem]">Nextjs Starter 2.0</p>
+            <p class="text-lg pb-auto">
+            A dead simple for nextjs project with firebase setup.
+            </p>
+            <!-- contenedor imagenes -->
+            <div class="flex flex-row justify-between mt-[3rem]">
+              <div class="flex flex-row gap-[1rem]">
+                <img
+                  src="./assetsJorge/img1card1.svg"
+                  alt=""
+                  class="bg-[white] rounded"
+                />
+                <img
+                  src="./assetsJorge/img2card1.svg"
+                  alt=""
+                  class="bg-[white] rounded"
+                />
+              </div>
+              <div class="flex flex-row gap-[0.5rem]">
+                <figure class="flex flex-row justify-center items-center">
+                  <img src="./assetsJorge/estrella.svg" alt="" />
+                </figure>
+                <p class="text-lg">89 Stars</p>
+              </div>
+            </div>
+          </div>
+          <!-- Carta 6 -->
+          <div class="bg-[#3F4152] p-[1rem] ml-[1rem] rounded-lg w-[50%] justify-between px-[2rem]">
+            <p class="text-3xl font-bold py-[0.8rem]">Mobile Web Starter Kit</p>
+            <p class="text-lg pb-auto">
+            A dead simple for html 5 boilerplate project. Included setup for minify css, html minify, SEO setting.
+            </p>
+            <!-- contenedor imagenes -->
+            <div class="flex flex-row justify-between mt-[3rem]">
+              <div class="flex flex-row gap-[1rem]">
+                <img
+                  src="./assetsJorge/img1card1.svg"
+                  alt=""
+                  class="bg-[white] rounded"
+                />
+                <img
+                  src="./assetsJorge/img2card2.svg"
+                  alt=""
+                  class="bg-[white] rounded"
+                />
+                <img
+                  src="./assetsJorge/img3card2.svg"
+                  alt=""
+                  class="bg-[white] rounded"
+                />
+              </div>
+              <div class="flex flex-row gap-[0.5rem]">
+                <figure class="flex flex-row justify-center items-center">
+                  <img src="./assetsJorge/estrella.svg" alt="" />
+                </figure>
+                <p class="text-lg">22 Stars</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </section>
+    </main>
+<!-- pie de página -->
+    <footer class="flex flex-col items-center text-sm text-xs mt-[6rem] pb-[2rem]">
+        <!-- menu -->
+        <div class="flex flex-row justify-center gap-[1rem] mb-[2rem]">
+            <items>Docs</items>
+            <items>Book Notes</items>
+            <items>Polywork</items>
+            <items>Starter Template</items>
+            <items>Statistics</items>
+        </div>
+
+        <p class="mb-[0.8rem]">Reach me out</p>
+        <figure class="flex flex-row gap-[1.5rem]">
+            <img src="./assetsJorge/github.svg" alt="Github">
+            <img src="./assetsJorge/instagram.svg" alt="">
+            <img src="./assetsJorge/dove.svg" alt="">
+        </figure>
+    </footer>
+  </body>
 </html>
